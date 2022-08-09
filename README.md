@@ -1,17 +1,3 @@
-# TinyMCE variable [![CircleCI token](https://img.shields.io/circleci/project/github/ambassify/tinymce-variable/master.svg)](https://circleci.com/gh/ambassify/manage) [![maintainer](https://img.shields.io/badge/maintainer-Sitebase-brightgreen.svg)](https://github.com/Sitebase)
-
-TinyMCE variable is a plugin that makes it easier to work with variables in text.
-A lot of web applications today allow users to write content with variables. Server side these variables can then be replaced with actual data.
-There are many large companies that use this kind of functionality but a lot of these implementations are not very user friendly.
-
-With this project we provide a user friendly implementation of such a feature nicely packaged as a TinyMCE plugin.
-
-![TinyMCE variables plugin example](preview.jpg)
-
-## Demo
-
-[Demo example of this plugin](https://ambassify.github.io/tinymce-variable/)
-
 ## Features
 
 * Replace variables like `{{example}}` with something more readable
@@ -20,6 +6,9 @@ With this project we provide a user friendly implementation of such a feature ni
 * Custom class for variable elements
 * Auto replace when typing a variable
 * Custom variable prefix and suffix
+* (New) Select and Insert Variable in list
+
+
 
 ## Example
 
@@ -94,10 +83,6 @@ Make sure to run the tests before pushing code or submitting any pull request us
 npm run test
 ```
 
-## Products using TinyMCE Variables
-* [BuboBox](https://www.bubobox.com/?utm_source=github&utm_medium=readme&utm_campaign=tinymce-variable)
-* [Ambassify](https://www.ambassify.com/?utm_source=github&utm_medium=readme&utm_campaign=tinymce-variable)
-
 ## Contributing
 
 1. Fork it!
@@ -113,3 +98,8 @@ For detailed changelog, check [Releases](https://github.com/bubobox/tinymce-vari
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
+
+
+## Contribuição
+
+- [@lippelima5](https://www.github.com/lippelima5)
